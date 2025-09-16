@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>OverTheMountain</title>
+        <link rel="icon" type="image/png" href="images/mountain.png" />
     </head>
     <body>
         <iframe
@@ -15,6 +16,10 @@
             allowfullscreen></iframe>
 
         <img src="images/cropped-peak.webp" width="300" alt="Peak banner image" />
+        <h4>
+            <a href="newplayerguide.html"> <strong>Guide Website</strong></a>
+        </h4>
+
         <h1>A peak overview</h1>
         <p>
             Peak is a co-op climbing game created by the studio agrocrab studios it released on the 16th of june 2025 to
@@ -26,43 +31,66 @@
             hunger, rope and chain launchers to aid in your climb aswell as medkits and bandages to heal yourself or
             your allies.
         </p>
-        <table border="1">
-            <tr>
-                <th>Gameplay</th>
-                <th>Score</th>
-                <th>Notes</th>
-            </tr>
-            <tr>
-                <th>Graphics</th>
-                <th>8</th>
-                <th>Cartoony and very stylised it perfectly fits the type of game peak is.</th>
-            </tr>
-            <tr>
-                <th>Features</th>
-                <th>8.5</th>
-                <th>Unique mechanics, Proximity chat, Special items, Rotating maps</th>
-            </tr>
-            <tr>
-                <th>Replayability</th>
-                <th>9</th>
-                <th>
-                    Lots of achievements and challanges, Updates consistently with fresh maps and new items and dangers
-                </th>
-            </tr>
-            <tr>
-                <th>Price</th>
-                <th>10</th>
-                <th>
-                    Peak is extremely Generous with its pricing £6.39 it has great player feedback and overall enjoyment
-                </th>
-            </tr>
-        </table>
+        <div>
+            <table border="1">
+                <tr>
+                    <th>Gameplay</th>
+                    <th>Score</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <th>Graphics</th>
+                    <th>8</th>
+                    <th>Cartoony and very stylised it perfectly fits the type of game peak is.</th>
+                </tr>
+                <tr>
+                    <th>Features</th>
+                    <th>8.5</th>
+                    <th>Unique mechanics, Proximity chat, Special items, Rotating maps</th>
+                </tr>
+                <tr>
+                    <th>Replayability</th>
+                    <th>9</th>
+                    <th>
+                        Lots of achievements and challanges, Updates consistently with fresh maps and new items and
+                        dangers
+                    </th>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <th>10</th>
+                    <th>
+                        Peak is extremely Generous with its pricing £6.39 it has great player feedback and overall
+                        enjoyment
+                    </th>
+                </tr>
+            </table>
+        </div>
         <img src="images/peak-mesa-update.jpg" alt="Peak mesage update banner used to split the page and links." />
-        <h2>Helpful links</h2>
-        <p>
-            <a href="https://store.steampowered.com/app/3527290/PEAK/#app_reviews_hash"> <strong> Steam </strong> </a>
-            <a href="https://discord.com/invite/peakgame"> <strong> Discord </strong> </a>
-            <a href=""> <strong> Youtube </strong> </a>
-        </p>
+        <div>
+            <h2>Helpful links</h2>
+            <p>
+                <a href="https://store.steampowered.com/app/3527290/PEAK/#app_reviews_hash">
+                    <strong> Steam </strong>
+                </a>
+                <a href="https://discord.com/invite/peakgame"> <strong> Discord </strong> </a>
+                <a href="https://www.youtube.com/@aggrocrabgames/featured"> <strong> Youtube </strong> </a>
+            </p>
+        </div>
+        <form>
+            <p>Have you played peak before?</p>
+            <label type="yes">Yes</label>
+            <input type="radio" id="yes" name="played_before" />
+            <label type="no">No</label>
+            <input type="radio" id="no" name="played_before" />
+        </form>
+        <br />
+        <form>
+            <label for="checkbox">Please input your email to join our newsletter</label>
+            <br />
+            <label for="email"></label>
+            <input type="email" id="email" />
+            <input type="submit" value="Submit" />
+        </form>
     </body>
 </html>
