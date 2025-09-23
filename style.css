@@ -1,0 +1,47 @@
+body {
+    color: #503018; /*Main Body Text Colour*/
+  background: #efd2bd;
+    background-blend-mode: lighten;
+    background-image: "Vintage_Paper.jpg";
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+a {
+    color: #b74848;
+    text-decoration: none; /*Attempts to remove underline from hyperlinks*/
+}
+
+
+h1 {
+    font-style: normal; /**/
+    text-transform: uppercase; /**/
+    font-size: medium; /**/
+}
+
+h2,
+h3 {
+    color: #1b801b; /* Header Colours*/
+    text-align: center; /* Aligns all headers to middle */
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center; /* Aligns all headers to middle */
+}
+
+p {
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: bold;
+}
+
+
+tr {
+    text-align: center;
+}
