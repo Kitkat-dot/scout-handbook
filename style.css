@@ -46,18 +46,54 @@ tr {
 
 .Weight {
     color: #c3631c;
-    font-weight: 1000;
-    font-family: Cambria, monospace;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
 }
 
 .Hunger {
-    color: aqua;
-    font-weight: 1000;
-    font-family: Cambria, monospace;
+    color: rgb(255, 249, 73);
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
 }
 
-.Injury{
-    color:aquamarine;
-    font-weight: 1000;
-    font-family: Cambria, monospace;
+.Injury {
+    color: #e24141;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Poison {
+    color: #862ea0;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Cold {
+    color: #56b0ff;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Heat {
+    color: #e55e16;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Thorns {
+    color: #0bac76;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Drowsy {
+    color: hotpink;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
+}
+
+.Curse {
+    color: #484b4d;
+    font-weight: 100;
+    font-family: Rubik Dirt, monospace;
 }
