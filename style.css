@@ -97,3 +97,10 @@ tr {
     font-weight: 100;
     font-family: Rubik Dirt, monospace;
 }
+
+.Icon{
+    display: block;
+    margin: auto;
+    width: 4%
+    
+}
