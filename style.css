@@ -4,19 +4,36 @@
     box-sizing: border-box;
 }
 
-body {
+.CentredContent {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efd2bd;
+    padding: 16px;
+    text-align: center;
+}
+
+.OuterBody {
     color: #503018; /*Main Body Text Colour*/
     background-blend-mode: lighten;
     background-size: 100%;
-    background-color: #efd2bd;
+    background-image: url(images/shore%20high%20res.jpg);
+    background-color: rgb(149, 102, 68);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.Centred Content {
+.video {
+    border-width: 4px;
+    border-style: solid;
+    position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .banner {
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     border-width: 4px;
     border-style: solid;
     position: center;
@@ -32,6 +49,11 @@ img {
 a {
     color: #b74848;
     text-decoration: none; /*Attempts to remove underline from hyperlinks*/
+}
+
+.links {
+    border: 2px dashed rgba(80, 48, 24, 0.42);
+    border-radius: 20px;
 }
 
 h1 {
@@ -54,7 +76,7 @@ p {
     letter-spacing: normal;
     word-spacing: normal;
     font-weight: bold;
-    color: #503018
+    color: #503018;
 }
 
 .Status {
@@ -148,6 +170,8 @@ p {
     /* Used to align and control the text within the Controls table*/
     border: 1px black;
     border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
 }
 
 .title {
@@ -157,4 +181,13 @@ p {
     font-family:
         Franklin Gothic,
         monospace;
+}
+
+.mesa {
+    display: block;
+    border-width: medium;
+    box-shadow: 50px;
+    width: 75%;
+    align-content: center;
+    margin: auto;
 }
