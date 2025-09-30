@@ -1,8 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     color: #503018; /*Main Body Text Colour*/
-    background: #efd2bd;
     background-blend-mode: lighten;
-    background-image: "Vintage_Paper.jpg";
+    background-size: 100%;
+    background-color: #efd2bd;
+}
+
+.Centred Content {
+}
+
+.banner {
+    width: 1000px;
+    height: 500px;
+    border-width: 4px;
+    border-style: solid;
+    position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 img {
@@ -25,82 +43,118 @@ h1 {
 h2,
 h3 {
     color: #1b801b; /* Header Colours*/
-    text-align: center; /* Aligns all headers to middle */
     font-weight: bold;
-}
-
-h3 {
-    text-align: center; /* Aligns all headers to middle */
+    font-size: x-large;
+    font-family:
+        Franklin Gothic,
+        monospace;
 }
 
 p {
-    text-align: center;
     letter-spacing: normal;
     word-spacing: normal;
     font-weight: bold;
+    color: #503018
 }
 
-tr {
-    text-align: center;
+.Status {
+    color: #1b801b;
+    font-weight: bold;
+    font-family:
+        Franklin Gothic,
+        monospace;
 }
 
 .Weight {
     color: #c3631c;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Hunger {
     color: rgb(255, 249, 73);
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Injury {
     color: #e24141;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Poison {
     color: #862ea0;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Cold {
     color: #56b0ff;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Heat {
     color: #e55e16;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Thorns {
     color: #0bac76;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Drowsy {
     color: hotpink;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
 .Curse {
     color: #484b4d;
     font-weight: 100;
-    font-family: Rubik Dirt, monospace;
+    font-family:
+        Rubik Dirt,
+        monospace;
 }
 
-.Icon{
-    display: block;
+.Icon {
+    /* Controls the Icons located within status effects */
     margin: auto;
-    width: 4%
-    
+    width: 15px;
+    display: inline;
+}
+
+.Controls {
+    /* Used to align and control the text within the Controls table*/
+    border: 1px black;
+    border-collapse: collapse;
+}
+
+.title {
+    color: #1b801b; /* Header Colours*/
+    font-weight: bold;
+    font-size: x-large;
+    font-family:
+        Franklin Gothic,
+        monospace;
 }
