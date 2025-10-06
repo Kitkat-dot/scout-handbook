@@ -40,6 +40,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
+.luggage {
+    width: 53%;
+    height: 100%;
+    border-width: 4px;
+    border-style: solid;
+    position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
 img {
     display: block;
     margin: auto;
@@ -174,6 +183,16 @@ p {
     padding: 10px;
 }
 
+.Items {
+    /* Used to align and control the text within the Controls table*/
+    border: 1px #503018;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+    color: rgb(149, 102, 68);
+    font-family: Impact, Haettenschweiler;
+}
+
 .title {
     color: #1b801b; /* Header Colours*/
     font-weight: bold;
@@ -190,4 +209,15 @@ p {
     width: 75%;
     align-content: center;
     margin: auto;
+}
+
+.food {
+    margin: auto;
+    width: 45px;
+    display: inline;
+    padding: 2px;
+}
+
+.table_text {
+    padding: 4px;
 }
