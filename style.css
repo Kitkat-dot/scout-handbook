@@ -175,6 +175,13 @@ p {
     display: inline;
 }
 
+.Hunger {
+    /* Controls the Icons located within status effects */
+    margin: auto;
+    width: 30px;
+    display: initial;
+}
+
 .Controls {
     /* Used to align and control the text within the Controls table*/
     border: 1px black;
