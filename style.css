@@ -234,6 +234,8 @@ p {
 
 .Controls {
     /* Used to align and control the text within the Controls table*/
+    height: 100%;
+    width: 100%;
     border: 1px black;
     border-collapse: collapse;
     margin: auto;

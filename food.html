@@ -23,12 +23,12 @@
                 width="232"
                 height="280" />
             <br />
-              <div class="links">
-                  <div class="navbutton"><a href="index.html">Overview | </a></div>
-                  <div class="navbutton"><a href="newplayerguide.html">New Player Guide |</a></div>
-                  <div class="navbutton"><a href="food.html"> Food |</a></div>
-                  <div class="navbutton"><a href="items.html">Items</a></div>
-              </div>
+            <div class="links">
+                <div class="navbutton"><a href="index.html">Overview | </a></div>
+                <div class="navbutton"><a href="newplayerguide.html">New Player Guide |</a></div>
+                <div class="navbutton"><a href="food.html"> Food |</a></div>
+                <div class="navbutton"><a href="items.html">Items</a></div>
+            </div>
             <h2>Food!</h2>
             <p>
                 Peak has a wide variety of different food items that the player can use to help recovering stamina while
@@ -352,7 +352,7 @@
                     </p>
                     <br />
                 </div>
-                <div>
+                <div class="tablecontainer">
                     <table class="Food" border="1">
                         <tr>
                             <th class="table_text">Icon</th>
@@ -449,67 +449,77 @@
                         attempting the Naturalist Badge.
                     </p>
                     <br />
-                    <table class="Food" border="1">
-                        <tr>
-                            <th class="table_text">Icon</th>
-                            <th class="table_text">Icon (poisonous)</th>
-                            <th class="table_text">Name</th>
-                            <th class="table_text">Hunger</th>
-                            <th class="table_text">Cooked</th>
-                            <th class="table_text">Energy</th>
-                            <th class="table_text">Bonus Energy (cooked)</th>
-                            <th class="table_text">Poison</th>
-                        </tr>
-                        <tr>
-                            <th><img class="food" src="images/Bugle_Shroom.webp" /></th>
-                            <th><img class="food" src="images/Bugle_Shroom_(Poisonous).webp" /></th>
-                            <th class="table_text">Bugle Shroom</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -15</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -30</th>
-                            <th class="table_text"></th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10</th>
-                            <th class="table_text">
-                                ⦾ When poisonous varient is consumed inflicts
-                                <img class="Hunger" src="images/Poison-removebg-preview.png" />20 Poison.
-                            </th>
-                        </tr>
-                        <tr>
-                            <th><img class="food" src="images/Button_Shroom.png" /></th>
-                            <th><img class="food" src="images/Button_Shroom_(Poisonous).png" /></th>
-                            <th class="table_text">Button Shroom</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -20</th>
-                            <th class="table_text"></th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10</th>
-                            <th class="table_text">
-                                ⦾ When poisonous varient is consumed inflicts
-                                <img class="Hunger" src="images/Poison-removebg-preview.png" />30 Poison.
-                            </th>
-                        </tr>
-                        <tr>
-                            <th><img class="food" src="images/Chubby_Shroom.png" /></th>
-                            <th>N/A</th>
-                            <th class="table_text">Chubby Shroom</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -20</th>
-                            <th class="table_text"></th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10</th>
-                            <th class="table_text">⦾ No poisonous varient.</th>
-                        </tr>
-                        <tr>
-                            <th><img class="food" src="images/Cluster_Shroom.webp" /></th>
-                            <th><img class="food" src="images/Cluster_Shroom_(Poisonous).png" /></th>
-                            <th class="table_text">Cluster Shroom</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -5</th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
-                            <th class="table_text"></th>
-                            <th class="table_text"><img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10</th>
-                            <th class="table_text">
-                                ⦾ When poisonous varient is consumed inflicts
-                                <img class="Hunger" src="images/Poison-removebg-preview.png" />40 Poison.
-                            </th>
-                        </tr>
-                    </table>
+                    <div class="tablecontainer">
+                        <table class="Food" border="1">
+                            <tr>
+                                <th class="table_text">Icon</th>
+                                <th class="table_text">Icon (poisonous)</th>
+                                <th class="table_text">Name</th>
+                                <th class="table_text">Hunger</th>
+                                <th class="table_text">Cooked</th>
+                                <th class="table_text">Energy</th>
+                                <th class="table_text">Bonus Energy (cooked)</th>
+                                <th class="table_text">Poison</th>
+                            </tr>
+                            <tr>
+                                <th><img class="food" src="images/Bugle_Shroom.webp" /></th>
+                                <th><img class="food" src="images/Bugle_Shroom_(Poisonous).webp" /></th>
+                                <th class="table_text">Bugle Shroom</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -15</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -30</th>
+                                <th class="table_text"></th>
+                                <th class="table_text">
+                                    <img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10
+                                </th>
+                                <th class="table_text">
+                                    ⦾ When poisonous varient is consumed inflicts
+                                    <img class="Hunger" src="images/Poison-removebg-preview.png" />20 Poison.
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><img class="food" src="images/Button_Shroom.png" /></th>
+                                <th><img class="food" src="images/Button_Shroom_(Poisonous).png" /></th>
+                                <th class="table_text">Button Shroom</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -20</th>
+                                <th class="table_text"></th>
+                                <th class="table_text">
+                                    <img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10
+                                </th>
+                                <th class="table_text">
+                                    ⦾ When poisonous varient is consumed inflicts
+                                    <img class="Hunger" src="images/Poison-removebg-preview.png" />30 Poison.
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><img class="food" src="images/Chubby_Shroom.png" /></th>
+                                <th>N/A</th>
+                                <th class="table_text">Chubby Shroom</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -20</th>
+                                <th class="table_text"></th>
+                                <th class="table_text">
+                                    <img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10
+                                </th>
+                                <th class="table_text">⦾ No poisonous varient.</th>
+                            </tr>
+                            <tr>
+                                <th><img class="food" src="images/Cluster_Shroom.webp" /></th>
+                                <th><img class="food" src="images/Cluster_Shroom_(Poisonous).png" /></th>
+                                <th class="table_text">Cluster Shroom</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -5</th>
+                                <th class="table_text"><img class="Hunger" src="images/Status_Hunger.png" /> -10</th>
+                                <th class="table_text"></th>
+                                <th class="table_text">
+                                    <img class="Hunger" src="images/Status_Bonus_stamina.png" /> 10
+                                </th>
+                                <th class="table_text">
+                                    ⦾ When poisonous varient is consumed inflicts
+                                    <img class="Hunger" src="images/Poison-removebg-preview.png" />40 Poison.
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
