@@ -93,7 +93,7 @@ img {
 }
 
 a {
-    color: #ff0b00;
+    color: #2d95ff;
     text-decoration: none; /*Attempts to remove underline from hyperlinks*/
 }
 
@@ -334,5 +334,5 @@ div.tablecontainer {
 }
 
 .LinkC {
-    color: #ff0000;
+    color: #2d95ff;
 }
