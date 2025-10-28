@@ -168,7 +168,7 @@ p {
 }
 
 .Hunger {
-    color: rgb(135, 107, 8);
+    color: rgb(90, 60, 10);
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -192,7 +192,7 @@ p {
 }
 
 .Cold {
-    color: #3a6488;
+    color: #132d52;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -316,7 +316,7 @@ div.tablecontainer {
 }
 
 .mystical {
-    color: rgba(94, 58, 211, 0.72);
+    color: rgba(84, 31, 128, 0.67);
     font-size: large;
     font-family:
         Rubik Dirt,
