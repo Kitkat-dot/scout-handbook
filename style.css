@@ -160,7 +160,7 @@ p {
 }
 
 .Weight {
-    color: #c3631c;
+    color: #734827;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -168,7 +168,7 @@ p {
 }
 
 .Hunger {
-    color: rgb(203, 160, 61);
+    color: rgb(135, 107, 8);
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -176,7 +176,7 @@ p {
 }
 
 .Injury {
-    color: #e24141;
+    color: #9c0d0d;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -184,7 +184,7 @@ p {
 }
 
 .Poison {
-    color: #862ea0;
+    color: #5f2271;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -192,7 +192,7 @@ p {
 }
 
 .Cold {
-    color: #56b0ff;
+    color: #3a6488;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -200,7 +200,7 @@ p {
 }
 
 .Heat {
-    color: #e55e16;
+    color: #6e0f0f;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -208,7 +208,7 @@ p {
 }
 
 .Thorns {
-    color: #0bac76;
+    color: #055439;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -216,7 +216,7 @@ p {
 }
 
 .Drowsy {
-    color: hotpink;
+    color: #922e60;
     font-weight: 100;
     font-family:
         Rubik Dirt,
@@ -224,7 +224,7 @@ p {
 }
 
 .Curse {
-    color: #484b4d;
+    color: #000000;
     font-weight: 100;
     font-family:
         Rubik Dirt,
