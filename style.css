@@ -268,12 +268,12 @@ table, th, td {
 
 .table_text {
     padding: 4px;
-    color: rgba(84, 50, 21, 0.65);
+    color: rgb(80, 48, 24);
 }
 
 .Items {
     /* Used to align and control the text within the Controls table*/
-    border: 1px #503018;
+    border: 1px rgb(134, 87, 53);
     width: auto;
     border-collapse: collapse;
     margin: auto;
@@ -284,12 +284,12 @@ table, th, td {
 
 .Food {
     /* Used to align and control the text within the Controls table*/
-    border: 1px #503018;
+    border: 1px rgb(134, 87, 53);
     width: auto;
     border-collapse: collapse;
     margin: auto;
     padding: 10px;
-    color: rgb(134, 87, 53);
+    color: rgb(80, 48, 24);
     font-family: Arial, Helvetica, sans-serif;
 }
 
