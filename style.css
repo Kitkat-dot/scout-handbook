@@ -24,11 +24,10 @@
     background-attachment: fixed;
 }
 
-.youtube{
+.youtube {
     width: 500px;
     height: 400px;
 }
-
 
 .video {
     width: 100%;
@@ -317,5 +316,5 @@ div.tablecontainer {
 }
 
 .LinkC {
-    color: #ff0000
+    color: #ff0000;
 }
