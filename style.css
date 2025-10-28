@@ -243,6 +243,10 @@ p {
     padding: 10px;
 }
 
+table, th, td {
+  border: 1px solid;
+}
+
 .table_text {
     padding: 4px;
     color: rgba(84, 50, 21, 0.65);
