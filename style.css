@@ -24,9 +24,28 @@
     background-attachment: fixed;
 }
 
+/*Will not change*/
 .youtube {
-    width: 500px;
     height: 400px;
+}
+
+/* Default mobile/phone */
+.youtube {
+    width: 100%;
+}
+
+/* tablet and up */
+@media (min-width: 830px) {
+    .youtube {
+        width: 500px;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1400px) {
+    .youtube {
+        width: 500px;
+    }
 }
 
 .video {
