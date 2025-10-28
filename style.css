@@ -43,7 +43,7 @@
     height: 100%;
     border-width: 4px;
     border-style: solid;
-    position: fixed;
+    position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
@@ -52,17 +52,19 @@
     height: 100%;
     border-width: 4px;
     border-style: solid;
-    position: center;
+    position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .mesa {
-    width: 53%;
+    width: 85%;
     height: 100%;
-    border-width: 4px;
     border-style: solid;
-    position: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    align-content: center;
+    margin: auto;
+    display: block;
+    border-width: medium;
 }
 
 img {
@@ -281,14 +283,7 @@ div.tablecontainer {
         monospace;
 }
 
-.mesa {
-    display: block;
-    border-width: medium;
-    box-shadow: 50px;
-    width: 75%;
-    align-content: center;
-    margin: auto;
-}
+
 
 .food {
     margin: auto;
@@ -311,7 +306,7 @@ div.tablecontainer {
     border-width: 4px;
     border-style: solid;
     border-color: #3d1083;
-    position: center;
+    position: relative;
     box-shadow: 0 4px 8px rgba(200, 52, 199, 0.8);
 }
 
